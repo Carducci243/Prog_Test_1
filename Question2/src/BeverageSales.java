@@ -9,6 +9,6 @@ class BeverageSales extends Beverage {
         System.out.println("Sales Report ");
         System.out.println("Beverage Type " + getBeverageType());
         System.out.println("City " + getCity());
-        System.out.println("Total Sales R " + getTotalSales()); // Added 'R' assuming South African Rand based on the IIE logo
+        System.out.println("Total Sales R " + getTotalSales());
     }
 }
